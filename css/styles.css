@@ -104,14 +104,12 @@ header button {
     padding: 20px 255px;
 }
 
-
 .row_b {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 40px 0px 40px 0px;
     background: #8B48BF;
-    width: 1440;
 }
 
 .col_a {
@@ -186,7 +184,7 @@ header button {
 }
 
 .container {
-    width: 1440;
+    width: 1440px;
     top: 260px;
     left: 180px;
     gap: 100px;
