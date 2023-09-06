@@ -1,2 +1,7 @@
 Victoria Bolaños Ceron
+- Parte inferior de la página, a partir de 01 Track company-wide progress y lo del footer.
+
 Paola Andrea Henao Suarez
+- La parte superior hasta la información de "What's different between pros?"
+
+Nota: Cada una realizó los @media de su parte.
