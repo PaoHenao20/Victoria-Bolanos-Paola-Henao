@@ -115,14 +115,8 @@ header button {
 }
 
 .col_a {
-    box-sizing: border-box;
     flex: 1;
-    font-family: "Be Vietnam";
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 41px;
-    letter-spacing: 0em;
-    text-align: left;
+    width: 50%;
 }
 
 .col_b {
