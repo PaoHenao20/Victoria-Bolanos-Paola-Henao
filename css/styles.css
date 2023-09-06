@@ -212,6 +212,7 @@ h3 {
 
 .button_a:hover {
     background-color: #8B48BFB2;
+    cursor:pointer;
 }
 
 .button_b {
