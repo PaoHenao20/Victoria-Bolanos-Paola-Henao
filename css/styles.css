@@ -1,6 +1,6 @@
 * {
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 100;
+    font-weight: 100px;
 }
 
 .estilos_header {
@@ -33,27 +33,6 @@
     display: none;
 }
 
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-
-li {
-    margin-right: 15px;
-    width: 56px;
-    height: 23px;
-    font-family: "Be Vietnam";
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #242E52;
-}
-
 li:hover {
     color: #242E5299;
     cursor: pointer;
@@ -71,7 +50,6 @@ li:hover {
     text-align: center;
     width: 134px;
     height: 44px;
-
 }
 
 header button {
@@ -92,8 +70,23 @@ header button {
     text-align: left;
     height: 23px;
     color: #242E52;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
 }
 
+li {
+    margin-right: 15px;
+    width: 56px;
+    height: 23px;
+    font-family: "Be Vietnam";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242E52;
+}
 
 .row_a {
     display: flex;
@@ -107,6 +100,7 @@ header button {
     justify-content: space-between;
     margin: 40px 0px 40px 0px;
     background: #8B48BF;
+    align-items: center;
 }
 
 .col_a {
@@ -147,7 +141,7 @@ header button {
     width: 450px;
     height: 71px;
     text-align: right;
-    /* margin-left: 250px; */
+    float: right;
 
 }
 
@@ -184,9 +178,6 @@ header button {
 
 .container {
     width: 100%;
-    /* top: 260px;
-    left: 180px;
-    gap: 100px; */
 }
 
 
@@ -378,6 +369,57 @@ h3 {
 
 
 @media only screen and (max-width: 768px) {
+
+    .estilos_header {
+        padding: 20px 50px 20px 50px;
+        color: #232C50;
+        display: flex;
+    }
+
+    .button_c {
+        padding: 10px;
+        border-radius: 50px;
+        gap: 10px;
+        background: #8B48BF;
+        color: #fff;
+        border: 0;
+        font-family: "Be Vietnam";
+        font-size: 13.18px;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+    }
+
+    .col_a img {
+        width: 350px;
+    }
+
+    .main_title {
+        font-family: "Be Vietnam";
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 57px;
+        text-align: right;
+        width: 75%;
+        color: #232C50;
+    
+    }
+
+    .second_title {
+        color: #FFFFFF;
+        font-family: "Be Vietnam";
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0em;
+        width: 450px;
+        height: 71px;
+        text-align: right;
+        float: right;
+    }
+    
+
+
     .benefits {
         padding: 0 2%;
     }
@@ -516,6 +558,7 @@ h3 {
         margin: 40px 0px 40px 0px;
         background: #3CDDF3;;
         flex-direction: column;
+
     }
 
     .col_a {
@@ -556,6 +599,7 @@ h3 {
         letter-spacing: 0em;
         text-align: left;
         padding: 0% 10% 0% 10%;
+ 
     }
 
     .second_title {
@@ -567,6 +611,7 @@ h3 {
         letter-spacing: 0em;
         text-align: left;
         padding: 0% 20% 0% 10%;
+        float: none;
     }
 
 
